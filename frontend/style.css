@@ -1,0 +1,95 @@
+/* body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #3498db;
+}
+
+p {
+  color: #333;
+} */
+
+
+body {
+  background-color: #f4f0fa;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+.todo-box {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid #b28dd7;
+}
+
+h1 {
+  color: #6f42c1;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+input[type="text"] {
+  border: 1px solid #d3bdee;
+  border-radius: 0.4rem 0 0 0.4rem;
+  outline: none;
+}
+
+.btn-purple {
+  background-color: #b28dd7;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem 1rem;
+  font-weight: 500;
+}
+
+.btn-purple:focus {
+  box-shadow: none;
+}
+
+.btn-purple.active {
+  outline: 2px solid white;
+}
+
+#taskList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: #f4eaff;
+  color: #5a3c88;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-text {
+  flex: 1;
+  margin: 0 0.5rem;
+  word-break: break-word;
+}
+
+.btn-action {
+  background-color: #b28dd7;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.btn-action i {
+  pointer-events: none;
+}
